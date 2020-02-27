@@ -1,4 +1,7 @@
 @import url("https://marksheet.io/css/reset.css");
+head {
+    background-color: bisque;
+}
 h1 {
     color: blue;
     font-size: 50pt;

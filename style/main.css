@@ -2,7 +2,7 @@
 body {
     background-color: bisque;
 }
-h1 {
-    color: blue;
-    font-size: 50pt;
-};
+.conteiner {
+    width: 100%
+    margin: 0 auto
+}

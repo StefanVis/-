@@ -2,19 +2,26 @@
 body {
     background-color: bisque;
 }
+/*контейнер для содержимого страницы*/
 .conteiner {
     width: 100%;
     max-width: 1024pt; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
     padding:0 15pt;
 }
+/*Главное меню в шапке*/
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex; /*Обозначим это в флекс контейнер*/
+    display: flex; /*Обозначим это в флекс-контейнер*/
 }
+/*Главное меню в подвале*/
 footer > nav{
+    display: flex; /*Обозначим это в флекс-контейнер*/
+}
+/*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
+.row{
     flex-direction: row;
 }
 .column{

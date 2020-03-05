@@ -4,7 +4,21 @@ body {
 }
 .conteiner {
     width: 100%;
+    max-width: 1024pt; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
+    padding:0 15pt;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /*Обозначим это в флекс контейнер*/
+}
+footer > nav{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
 }
 .site-header {
     

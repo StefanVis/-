@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: bisque;
 }
 /*контейнер для содержимого страницы*/
 .conteiner {

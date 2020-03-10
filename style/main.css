@@ -41,7 +41,7 @@ header{
 /*Основное содержимое свайта*/
 main{
     display:flex;
-    flex: auto;
+    flex: 0 0 auto;
 }
 main > div.conteiner{
     flex: auto;

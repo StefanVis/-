@@ -1,5 +1,14 @@
-@import url("https://marksheet.io/css/reset.css");
+/*Импорт стилей, шрифтов и иконок*/
+@import url("https://marksheet.io/css/reset.css");/*Сброс CSS*/
+@import url("");/*Дополнительные шрифты из Google Font*/
+/*Базовые стили*/
+html {
+    height: 100%;
+}
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background-color: bisque;
 }
 /*контейнер для содержимого страницы*/
@@ -7,18 +16,12 @@ body {
     width: 100%;
     max-width: 1024pt; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
-    padding:0 15pt;
 }
-/*Главное меню в шапке*/
+/*Предустановки*/
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex; /*Обозначим это в флекс-контейнер*/
-}
-/*Главное меню в подвале*/
-footer > nav{
-    display: flex; /*Обозначим это в флекс-контейнер*/
 }
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
 .row{
@@ -27,9 +30,32 @@ footer > nav{
 .column{
     flex-direction: column;
 }
-.site-header {
-    
+/*Гибкая верстка*/
+img{
+    width: 100%;
+    max-width: 100%;
 }
-.site-footer {
-    
+/*Шапка сайта*/
+header{
+    flex: 0 0 auto;
+}
+/*Основное содержимое свайта*/
+main{
+    display:flex;
+    flex: auto;
+}
+main > div.conteiner{
+    flex: auto;
+}
+section{
+    flex: 3 0 auto;/* 3 - это ширена столбца*/
+    padding: 0 15pt;
+}
+aside{
+    flex: 1 0 auto;/* 1 - это ширена столбца*/
+    padding: 0 15pt;
+}
+/*Подвал*/
+footer{
+    flex: 0 0 auto;
 }

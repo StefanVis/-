@@ -52,7 +52,7 @@ img{
 .col-6{
     flex: 6;
 }
-@madia(max-width: 800pt){
+@madia(max-width: 800px){
     .container{
         flex-direction: column;
     }

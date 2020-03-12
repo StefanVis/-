@@ -11,7 +11,7 @@ body {
     height: 100%;
 }
 /*контейнер для содержимого страницы*/
-.conteiner {
+.container {
     width: 100%;
     max-width: 1024pt; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
@@ -43,8 +43,8 @@ main{
     display:flex;
     flex: 0 0 auto;
 }
-main > div.conteiner{
-    flex: auto;
+main > div.container{
+    flex: 0 0 auto;
 }
 section{
     flex: 3 0 auto;/* 3 - это ширена столбца*/

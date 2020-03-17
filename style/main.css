@@ -80,12 +80,12 @@ footer nav ul{
 /*Основное содержимое свайта*/
 main{
     display:flex;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     background-color: #e5e5e5;
     height: 200px;
 }
 main > div.container{
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     background-color: #fff;
 }
 section{

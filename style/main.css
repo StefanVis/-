@@ -101,5 +101,9 @@ footer{
     flex: 0 0 auto;
 }
 footer > duv.container{
-    background-color: #fff;
+    height: 100%;
+    padding: 10px 0;
+}
+footer nav ul{
+    margin-right: 30px;
 }

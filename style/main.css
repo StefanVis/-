@@ -81,7 +81,7 @@ footer nav ul{
 main{
     display:flex;
     flex: 1 0 auto;
-    background-color: #000;
+    background-color: #e5e5e5;
     height: 200px;
 }
 main > div.container{

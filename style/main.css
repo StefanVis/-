@@ -17,17 +17,17 @@ body {
     margin: 0 auto;
 }
 /*Предустановки*/
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
 .row{
     flex-direction: row;
 }
 .column{
     flex-direction: column;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 /*Гибкая верстка*/
 img{
@@ -52,7 +52,7 @@ img{
 .col-6{
     flex: 6;
 }
-@madia(max-width: 800px){
+@media(max-width: 800px){
     .container{
         flex-direction: column;
     }

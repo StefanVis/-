@@ -99,11 +99,11 @@ aside{
 /*Подвал*/
 footer{
     flex: 0 0 auto;
+    color: #fff;
 }
 footer > duv.container{
     height: 100%;
     padding: 10px 0;
-    color: #fff;
 }
 footer nav ul{
     margin-right: 30px;

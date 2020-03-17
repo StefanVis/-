@@ -1,10 +1,7 @@
-/* Импорт стилей, шрифтов и иконок */
-/* Сброс CSS */
-@import url("https://marksheet.io/css/reset.css");
-
-
-
-/* Базовые стили */
+/*Импорт стилей, шрифтов и иконок*/
+@import url("https://marksheet.io/css/reset.css");/*Сброс CSS*/
+@import url("");/*Дополнительные шрифты из Google Font*/
+/*Базовые стили*/
 html {
     height: 100%;
 }
@@ -13,22 +10,20 @@ body {
     flex-direction: column;
     height: 100%;
 }
+/*контейнер для содержимого страницы*/
 .container {
-    display: flex;
     width: 100%;
-    max-width: 1200px; /*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
+    max-width: 1024pt; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
 }
-
-
-/* Предустановки */
-.row {
-    display: flex;
+/*Предустановки*/
+/*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
+.row{
+    display: flex
     flex-direction: row;
 }
-.column {
-    display: flex;
+.column{
+    display: flex
     flex-direction: column;
 }
 nav ul {
@@ -36,58 +31,55 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
-
-/* Гибкая верстка */
-img {
+/*Гибкая верстка*/
+img{
     width: 100%;
     max-width: 100%;
 }
-.col-1 {
+.col-1{
     flex: 1;
 }
-.col-2 {
+.col-2{
     flex: 2;
 }
-.col-3 {
+.col-3{
     flex: 3;
 }
-.col-4 {
+.col-4{
     flex: 4;
 }
-.col-5 {
+.col-5{
     flex: 5;
 }
-@media (max-width: 800px) {
-    .container {
-        flex-direction: column;
-   }
+.col-6{
+    flex: 6;
 }
-
-
-/* Шапка сайта */
-header {
+@media(max-width: 800px){
+    .container{
+        flex-direction: column;
+    }
+}
+/*Шапка сайта*/
+header{
     flex: 0 0 auto;
 }
-
-
-/* Основное содержимое */
-main {
-    display: flex;
-    flex: 1 0 auto;
+/*Основное содержимое свайта*/
+main{
+    display:flex;
+    flex: 0 0 auto;
 }
-main > div.container {
-    flex: 1 0 auto;
+main > div.container{
+    flex: 0 0 auto;
 }
-section {
-
+section{
+    flex: 3 0 auto;/* 3 - это ширена столбца*/
+    padding: 0 15pt;
 }
-aside {
-
+aside{
+    flex: 1 0 auto;/* 1 - это ширена столбца*/
+    padding: 0 15pt;
 }
-
-
-/* Подвал сайта */
-footer {
+/*Подвал*/
+footer{
     flex: 0 0 auto;
 }

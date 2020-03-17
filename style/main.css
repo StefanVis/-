@@ -68,10 +68,10 @@ header{
 /*Основное содержимое свайта*/
 main{
     display:flex;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 }
 main > div.container{
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 }
 section{
     flex: 3 0 auto;/* 3 - это ширена столбца*/

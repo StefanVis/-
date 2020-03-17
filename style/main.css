@@ -19,11 +19,11 @@ body {
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
 .row{
-    display: flex
+    display: flex;
     flex-direction: row;
 }
 .column{
-    display: flex
+    display: flex;
     flex-direction: column;
 }
 nav ul {

@@ -69,6 +69,7 @@ img{
 }
 /*Шапка сайта*/
 header{
+    display:flex;
     flex: 0 0 auto;
     background-color: #000;
     height: 100px;
@@ -88,20 +89,23 @@ footer nav ul{
 main{
     display:flex;
     flex: 1 0 auto;
-    background-color: #e5e5e5;
     background-image: url("marak-site/images/background.jpg");
+    background-color: #e5e5e5;
     background-position: center, center;
     background-size: cover;
 }
 main > div.container{
+    display:flex;
     flex: 1 0 auto;
     background-color: #fff;
 }
 section{
+    display:flex;
     flex: 3 0 auto;/* 3 - это ширена столбца*/
     padding: 0 15pt;
 }
 aside{
+    display:flex;
     flex: 1 0 auto;/* 1 - это ширена столбца*/
     padding: 0 15pt;
 }

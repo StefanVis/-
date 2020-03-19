@@ -12,7 +12,7 @@ body {
 }
 /*контейнер для содержимого страницы*/
 .container {
-    display: flex
+    display: flex;
     width: 100%;
     max-width: 1200px; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;

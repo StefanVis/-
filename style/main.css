@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+	font-size: 14px;
 }
 /*контейнер для содержимого страницы*/
 .container {
@@ -16,7 +17,16 @@ body {
     width: 100%;
     max-width: 1200px; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
-    padding: 0 15px;
+}
+.button {
+    background-color: #999;
+    border-radius: 5px;
+	padding: 20px 30px;
+	margin: 10px 20px;
+	text-decoration: none !important;
+}
+.button:hover{
+	background-color: #888;
 }
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
@@ -32,12 +42,6 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-button {
-    height: 50px;
-    /*width: 100px;*/
-    background-color: #999;
-    border-radius: 5px;
 }
 /*Гибкая верстка*/
 img{
@@ -82,14 +86,11 @@ header > duv.container{
 header ul li{
     margin: 20px;
 }
-footer nav ul{
-    margin-right: 15px;
-}
 /*Основное содержимое свайта*/
 main{
     display:flex;
     flex: 1 0 auto;
-    background-image: url("marak-site/images/background.jpg");
+    background-image: url("/marak-site/images/background.jpg");
     background-color: #e5e5e5;
     background-position: center, center;
     background-size: cover;
@@ -124,7 +125,7 @@ footer > duv.container{
 footer nav ul{
     margin-right: 30px;
 }
-heder a,
+header a,
 footer a {
     color: #fff;
     text-decoration: none;

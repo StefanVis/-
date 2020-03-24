@@ -34,23 +34,23 @@ h1 {
 }
 h2 {
 	font-size: 2.2em;
-	padding: .8em 0 1.2em 0;
+	padding: .8em 0 1em 0;
 }
 h3 {
 	font-size: 2em;
-	padding: .8em 0 1.2em 0;
+	padding: .8em 0 .8em 0;
 }
 h4 {
 	font-size: 1.8em;
-	padding: .8em 0 1.2em 0;
+	padding: .8em 0 .6em 0;
 }
 h5 {
 	font-size: 1.6em;
-	padding: .8em 0 1.2em 0;
+	padding: .8em 0 .6em 0;
 }
 h6 {
 	font-size: 1.4em;
-	padding: .8em 0 1.2em 0;
+	padding: .8em 0 .6em 0;
 }
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
@@ -95,6 +95,18 @@ img{
         flex-direction: column;
     }
 }
+.b-right {
+	border-right: 1px solid #e5e5e5;
+}
+.b-top {
+	border-top: 1px solid #e5e5e5;
+}
+.b-left {
+	border-left: 1px solid #e5e5e5;
+}
+.b-bottom {
+	border-bottom: 1px solid #e5e5e5;
+}
 /*Шапка сайта*/
 header{
     display:flex;
@@ -102,6 +114,9 @@ header{
     background-color: #000;
     height: 100px;
     color: #fff;
+}
+header .logo{
+	width: 100px;
 }
 header > duv.container{
     height: 100%;
@@ -134,6 +149,16 @@ aside{
     flex: 1 0 auto;/* 1 - это ширена столбца*/
     padding: 0 15pt;
 }
+aside a{
+	color: #000;
+	text-decoration: none;
+}
+aside a:hover {
+	text-decoration: underline;
+}
+aside li {
+	line-height: 1.5em;
+}
 /*Подвал*/
 footer{
     display:flex;
@@ -148,6 +173,9 @@ footer > duv.container{
 }
 footer nav ul{
     margin-right: 30px;
+}
+footer li {
+	line-height: 2em;
 }
 header a,
 footer a {

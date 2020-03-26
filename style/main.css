@@ -139,13 +139,14 @@ header .logo{
 /*Основное содержимое свайта*/
 main{
     display:flex;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
     background-color: #e5e5e5;
     background-image: url("/marak-site/images/background.jpg");
     background-position: center, center;
     background-size: cover;
 }
 main > div.container{
+    flex: 1 0 auto;
     background-color: #fff;
 }
 section{

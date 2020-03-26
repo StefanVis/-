@@ -1,5 +1,8 @@
 /*Импорт стилей, шрифтов и иконок*/
-@import url("https://marksheet.io/css/reset.css");/*Сброс CSS*/
+/*Сброс CSS*/
+@import url("https://marksheet.io/css/reset.css");
+/*А может быть лудше Normalize*/
+@import url("https://github.com/necolas/normalize.css/blob/master/normalize.css");
 @import url("");/*Дополнительные шрифты из Google Font*/
 /*Базовые стили*/
 html {
@@ -19,7 +22,9 @@ body {
     margin: 0 auto;
 }
 .button {
-    background-color: #999;
+	height: 50px;
+	/*width: 100px;*/
+    background-color: #666;
     border-radius: 5px;
 	padding: 20px 30px;
 	margin: 10px 20px;
@@ -73,21 +78,27 @@ img{
     max-width: 100%;
 }
 .col-1{
+    display: flex;
     flex: 1;
 }
 .col-2{
+    display: flex;
     flex: 2;
 }
 .col-3{
+    display: flex;
     flex: 3;
 }
 .col-4{
+    display: flex;
     flex: 4;
 }
 .col-5{
+    display: flex;
     flex: 5;
 }
 .col-6{
+    display: flex;
     flex: 6;
 }
 @media(max-width: 800px){
@@ -109,45 +120,43 @@ img{
 }
 /*Шапка сайта*/
 header{
-    display:flex;
+    display: flex;
     flex: 0 0 auto;
     background-color: #000;
     height: 100px;
     color: #fff;
 }
-header .logo{
-	width: 100px;
-}
-header > duv.container{
+header > div.container{
     height: 100%;
 	align-items: center;
 }
 header ul li{
-    margin: 20px;
+    margin-right: 20px;
+}
+header .logo{
+	width: 100px;
 }
 /*Основное содержимое свайта*/
 main{
     display:flex;
-    flex: 1 0 auto;
-    background-image: url("/marak-site/images/background.jpg");
+    flex: 0 0 auto;
     background-color: #e5e5e5;
-    background-position: center, center;
+    background-image: url("/marak-site/images/background.jpg");
+    background-position: center center;
     background-size: cover;
 }
 main > div.container{
-    display:flex;
-    flex: 1 0 auto;
     background-color: #fff;
 }
 section{
     display:flex;
     flex: 3 0 auto;/* 3 - это ширена столбца*/
-    padding: 0 15pt;
+    padding: 0 15px;
 }
 aside{
     display:flex;
     flex: 1 0 auto;/* 1 - это ширена столбца*/
-    padding: 0 15pt;
+    padding: 0 15px;
 }
 aside a{
 	color: #000;
@@ -167,7 +176,7 @@ footer{
 	height: 200px;
     color: #fff;
 }
-footer > duv.container{
+footer > div.container{
     height: 100%;
     padding: 10px 0;
 }

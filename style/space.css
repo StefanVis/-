@@ -131,6 +131,7 @@ header{
     display: flex;
 	flex-direction: column;
     flex: 0 0 auto;
+	hight: 500px;
     background-color: gray;
     color: gray;
 }

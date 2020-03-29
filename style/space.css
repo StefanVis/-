@@ -132,7 +132,6 @@ header{
 	flex-direction: column;
     flex: 0 0 auto;
     background-color: gray;
-    height: 100px;
     color: gray;
 }
 header > div.container{

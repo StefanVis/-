@@ -12,26 +12,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-	font-size: 14px;
 }
 /*контейнер для содержимого страницы*/
 .container {
-    display: flex;
     width: 100%;
     max-width: 1200px; /*Максимальная ширина может иметь другое значение*/
     margin: 0 auto;
-}
-.button {
-	height: 50px;
-	/*width: 100px;*/
-    background-color: yellow;
-    border-radius: 5px;
-	padding: 20px 30px;
-	margin: 10px 20px;
-	text-decoration: none !important;
-}
-.button:hover {
-	background-color: lightyellow;
 }
 h1 {
 	font-size: 2.4em;
@@ -59,16 +45,10 @@ h6 {
 }
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
-div > img.icon {
-	padding: 0 0 0 10px;
-	text-align: right;
-}
 .row{
-    display: flex;
     flex-direction: row;
 }
 .column{
-    display: flex;
     flex-direction: column;
 }
 nav ul {
@@ -105,35 +85,20 @@ img{
     display: flex;
     flex: 6;
 }
-.col-7{
-    display: flex;
-    flex: 7;
-}
 @media(max-width: 800px){
     .container{
         flex-direction: column;
     }
 }
-.b-right {
-	border-right: 1px solid #e5e5e5;
-}
-.b-top {
-	border-top: 1px solid #e5e5e5;
-}
-.b-left {
-	border-left: 1px solid #e5e5e5;
-}
-.b-bottom {
+/*.b-bottom {
 	border-bottom: 1px solid #e5e5e5;
-}
+}*/
 /*Шапка сайта*/
 header{
-    display: flex;
-	flex-direction: column;
     flex: 0 0 auto;
-	hight: 500px;
-    background-color: gray;
-    color: gray;
+    background-color: #808080;
+    height: 100px;
+    color: #C0C0C0;
 }
 header > div.container{
     height: 100%;
@@ -146,36 +111,14 @@ header .logo{
 	width: 100px;
 }
 /*Основное содержимое свайта*/
-main{
-    display:flex;
+section {
     flex: 1 0 auto;
-    background-color: white;
-    background-position: center, center;
-    background-size: cover;
 }
-section{
-    display:flex;
-    flex: 3 0 auto;/* 3 - это ширена столбца*/
-    padding: 0 15px;
-}
-aside{
-    display:flex;
-    flex: 1 0 auto;/* 1 - это ширена столбца*/
-    padding: 0 15px;
-}
-aside a{
-	color: #000;
-	text-decoration: none;
-}
-aside a:hover {
-	text-decoration: underline;
-}
-aside li {
-	line-height: 1.5em;
+section > div.container {
+    flex: 1 0 auto;
 }
 /*Подвал*/
 footer{
-    display:flex;
     flex: 0 0 auto;
 	background-color: #000;
 	height: 200px;
@@ -190,9 +133,6 @@ footer nav ul{
 }
 footer li {
 	line-height: 2em;
-}
-header > div.container {
-	flex-direction: column;
 }
 header a,
 footer a {

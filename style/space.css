@@ -95,6 +95,7 @@ img{
 }*/
 /*Шапка сайта*/
 header{
+    display: flex;
     flex: 0 0 auto;
     background-color: #808080;
     height: 100px;

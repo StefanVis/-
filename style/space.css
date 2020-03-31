@@ -128,6 +128,7 @@ footer{
 footer > div.container{
     height: 100%;
     padding: 10px 0;
+	flex-direction: row;
 }
 footer nav ul{
     margin-right: 30px;

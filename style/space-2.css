@@ -111,7 +111,9 @@ header > div.container {
 header ul {
     display: flex;
 	flex-direction: row;
-	margin-right: 20px;
+}
+header ul {
+	margin-left: 20px;
 }
 /*Основное содержимое свайта*/
 .moon-toor {

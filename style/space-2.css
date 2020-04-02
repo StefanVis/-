@@ -101,11 +101,16 @@ img{
     .container{
         flex-direction: column;
     }
+	.moon-toor {
+		flex-direction: column-reverse;
+	}
+	.cont-position {
+		flex-direction: column;
+	}
 }
 /*Шапка сайта*/
 header{
     display: flex;
-	flex-direction: row;
     flex: 0 0 auto;
 	background-color: #696969;
 	color: #DCDCDC;
@@ -117,10 +122,6 @@ header > div.container {
 .contacts {
 	text-align: right;
 }
-header ul {
-    display: flex;
-	flex-direction: row;
-}
 header ul li{
 	margin-left: 20px;
 }
@@ -130,8 +131,6 @@ section > div {
 	align-items: center, center;
 }
 .moon-toor {
-    display: flex;
-	flex-direction: row;
 	flex: 1 0 auto;
 	background-color: #696969;
 	color: #FFFFFF;
@@ -144,6 +143,9 @@ button > img {
 	flex: 1 0 auto;
 	background-color: #000000;
 	color: #DCDCDC;
+}
+.aduan-li {
+	margin: 10px 0;
 }
 .content {
 	flex: 1 0 auto;

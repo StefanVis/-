@@ -135,6 +135,10 @@ section > div {
 	background-color: #696969;
 	color: #FFFFFF;
 }
+.moon-and-rocket {
+	height: 300px;
+	width: 300px;
+}
 .tuor-cont {
 	margin: 50px;
 	align-items: center, center;

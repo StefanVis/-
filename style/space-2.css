@@ -111,8 +111,6 @@ header > div.container {
 header ul {
     display: flex;
 	flex-direction: row;
-}
-header ul il {
 	margin-right: 20px;
 }
 /*Основное содержимое свайта*/

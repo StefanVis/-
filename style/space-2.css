@@ -44,6 +44,13 @@ h6 {
 	font-size: 1.4em;
 	padding: .8em 0 .6em 0;
 }
+button {
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	color: black;
+	border-radius: 5px;
+}
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
 .row{
@@ -127,6 +134,10 @@ header ul li{
     display: flex;
 	flex-direction: column;
 	align-items: center, center;
+}
+button > img {
+	height: 50px;
+	width: 50px;
 }
 .advantages {
 	flex: 1 0 auto;

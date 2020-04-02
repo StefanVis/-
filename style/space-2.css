@@ -135,6 +135,14 @@ section > div {
 	background-color: #696969;
 	color: #FFFFFF;
 }
+.moon-and-rocket {
+	height: 500px;
+	width: 500px;
+}
+.tuor-cont {
+	margin: 50px;
+	align-items: center, center;
+}
 button > img {
 	height: 50px;
 	width: 50px;
@@ -145,7 +153,7 @@ button > img {
 	color: #DCDCDC;
 }
 .aduan-li {
-	margin: 10px 0;
+	margin: 0 50px;
 }
 .content {
 	flex: 1 0 auto;

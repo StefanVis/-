@@ -101,10 +101,14 @@ header{
 	background-color: #696969;
 	color: #DCDCDC;
 }
+header > div.container {
+	height: 100%;
+	align-items: center;
+}
 header ul il {
     display: flex;
 	flex-direction: row;
-	outline: 10px;
+	margin-right: 20px;
 }
 /*Основное содержимое свайта*/
 .moon-toor {

@@ -127,6 +127,7 @@ header ul li{
 /*Основное содержимое свайта*/
 section > div {
 	border-radius: 100px;
+	align-items: center, center;
 }
 .moon-toor {
     display: flex;
@@ -134,9 +135,6 @@ section > div {
 	flex: 1 0 auto;
 	background-color: #696969;
 	color: #FFFFFF;
-}
-.tuor-cont {
-	align-items: center, center;
 }
 button > img {
 	height: 50px;

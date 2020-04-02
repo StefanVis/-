@@ -112,7 +112,7 @@ header ul {
     display: flex;
 	flex-direction: row;
 }
-header ul {
+header ul li{
 	margin-left: 20px;
 }
 /*Основное содержимое свайта*/

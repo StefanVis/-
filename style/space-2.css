@@ -136,8 +136,6 @@ section > div {
 	color: #FFFFFF;
 }
 .tuor-cont {
-    display: flex;
-	flex-direction: column;
 	align-items: center, center;
 }
 button > img {

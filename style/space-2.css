@@ -45,11 +45,13 @@ h6 {
 	padding: .8em 0 .6em 0;
 }
 button {
+	height: 50px;
 	display: flex;
 	flex-direction: row;
 	background-color: yellow;
 	color: black;
-	border-radius: 5px;
+	border-radius: 15px;
+	text-decoration: none !important;
 }
 /*Предустановки*/
 /*Предусьтановки для установки flex элементов: row - горезонтально, collumn - вертекально*/
@@ -113,7 +115,7 @@ header > div.container {
 	align-items: center;
 }
 .contacts {
-	text-align: left;
+	text-align: right;
 }
 header ul {
     display: flex;

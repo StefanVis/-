@@ -140,7 +140,7 @@ section > div {
 	width: 300px;
 }
 .tuor-cont {
-	margin: 50px;
+	margin: 25px 0;
 	align-items: center, center;
 }
 button > img {
@@ -168,4 +168,6 @@ button > img {
 footer{
     display: flex;
     flex: 0 0 auto;
+	background-color: #000;
+	color: #fff;
 }

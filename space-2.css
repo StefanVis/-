@@ -96,14 +96,31 @@ img{
 /*Шапка сайта*/
 header{
     display: flex;
+	flex-direction: row;
     flex: 0 0 auto;
+	background-color: #696969;
+	color: #DCDCDC;
+}
+header ul il {
+    display: flex;
+	flex-direction: row;
+	outline: 10px;
 }
 /*Основное содержимое свайта*/
-section {
-    flex: 1 0 auto;
+.moon-toor {
+	flex: 1 0 auto;
+	background-color: #696969;
+	color: #FFFFFF;
 }
-section > div.container {
-    flex: 1 0 auto;
+.advantages {
+	flex: 1 0 auto;
+	background-color: #000000;
+	color: #DCDCDC;
+}
+.content {
+	flex: 1 0 auto;
+	background-color: #FFFFFF;
+	color: #000000;
 }
 /*Подвал*/
 footer{

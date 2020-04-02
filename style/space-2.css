@@ -50,7 +50,7 @@ button {
 	flex-direction: row;
 	background-color: yellow;
 	color: black;
-	border-radius: 15px;
+	border-radius: 30px;
 	text-decoration: none !important;
 }
 /*Предустановки*/
@@ -125,6 +125,9 @@ header ul li{
 	margin-left: 20px;
 }
 /*Основное содержимое свайта*/
+section > div {
+	border-radius: 100px;
+}
 .moon-toor {
     display: flex;
 	flex-direction: row;

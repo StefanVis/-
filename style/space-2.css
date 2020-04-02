@@ -105,9 +105,14 @@ header > div.container {
 	height: 100%;
 	align-items: center;
 }
-header ul il {
+.contacts {
+	text-align: left;
+}
+header ul {
     display: flex;
 	flex-direction: row;
+}
+header ul il {
 	margin-right: 20px;
 }
 /*Основное содержимое свайта*/

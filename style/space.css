@@ -117,6 +117,9 @@ strong {
 		order: -1;
 		width: 300px;
 	}
+	footer > div.container {
+		padding-bottom: 10px;
+	}
 }
 /*Шапка сайта*/
 header { /*Свойства для тега <header>:*/

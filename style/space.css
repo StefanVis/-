@@ -126,11 +126,11 @@ header { /*Свойства для тега <header>:*/
 }
 header > div.container { /*Свойство строго для тега <div> с классом class="container" который находиться в <header>:*/
 	height: 100%; /*Высота блока 100% от его родителя, т.е. <header>*/
-	padding-top: 50px;
+	align-items: flex-end;
 }
 header ul { /*Свойство только для тега <ul>, который находиться в <header>:*/
 	display: flex; /*Делаем для ul flexbox-кнтейнер*/
-	padding-top: 50px;
+	padding-bottom: 50px;
 }
 header li {
 	color: #DCDCDC; /*Цвет шрифта обычного текста*/
@@ -138,19 +138,19 @@ header li {
 header li a { /*Свойства только для тега <li> который находиться в <header>*/
 	padding: 50px 10px 10px 10px; /*Внутриние отступы по 4-ем сторонам*/
 	margin-right: 10px; /*Внешний отступ справа*/
-	color: yellow; /*Цвет шрифта для ссылок*/ /*ЕСЛИ ЧТО ВНЕСТИ ПОПРАВКУ*/
+	color: #DCDCDC; /*Цвет шрифта для ссылок*/ /*ЕСЛИ ЧТО ВНЕСТИ ПОПРАВКУ*/
 	text-decoration: none; /*Убираем подчеркивание текста в сылках*/
 }
 .header-contacts { /*Свойства для класса class="header-contacts"*/
 	display: flex; /*Делаем flex-контейнер, чобы выровнять иконки по вертекали*/
-	padding-top: 50px;
+	padding-bottom: 20px;
 	align-items: center; /*Выравнивание элементов по вертикали (по центу)*/
 }
 .header-contacts img { /*Свойства только для тега <img> с классом class=".header-contacts"*/
 	padding-right: 20px; /*Внутрений отступ справа*/
 }
 /*Основное содержимое свайта*/
-.moon-toor { /*Свойства класса class="moon-toor"*/
+.moon-tour { /*Свойства класса class="moon-toor"*/
 	flex: 1 0 auto; /*Фиксиуем положение*/
 	flex-wrap: wrap; /*Преренос <div> под другой <div> когда экран меньше 800px*/
 	background-color: #696969; /*Задний фон*/

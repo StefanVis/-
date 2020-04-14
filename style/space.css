@@ -117,7 +117,7 @@ strong {
 		order: -1;
 		width: 300px;
 	}
-	footer > div.container {
+	.block {
 		padding-bottom: 10px;
 	}
 }

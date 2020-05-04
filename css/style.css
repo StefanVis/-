@@ -1,48 +1,41 @@
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
+  src: url("marak-site/fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto.woff2"), url("../fonts/Roboto.woff");
+  src: url("marak-site/fonts/Roboto.woff2"), url("../fonts/Roboto.woff");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Robotomedium.woff2"), url("../fonts/Robotomedium.woff");
+  src: url("marak-site/fonts/Robotomedium.woff2"), url("../fonts/Robotomedium.woff");
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Robotobold.woff2"), url("../fonts/Robotobold.woff");
+  src: url("marak-site/fonts/Robotobold.woff2"), url("../fonts/Robotobold.woff");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Yeseva One";
-  src: url("../fonts/yesevaone.woff2"), url("../fonts/yesevaone.woff");
+  src: url("marak-site/fonts/yesevaone.woff2"), url("../fonts/yesevaone.woff");
   font-weight: normal;
   font-style: normal;
 }
-
 html {
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 body {
   min-width: 320px;
   margin: 0;
@@ -54,16 +47,13 @@ body {
   color: #ffffff;
   background-color: #151313;
 }
-
 a {
   text-decoration: none;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
   overflow: hidden;
@@ -76,21 +66,18 @@ img {
   border: 0;
   clip-path: inset(100%);
 }
-
 .container {
   position: relative;
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
 }
-
 .section__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-
 .section__title {
   margin: 0;
   font-family: "Yeseva One", "Georgia", serif;
@@ -101,8 +88,6 @@ img {
   color: #ffffff;
   text-align: center;
 }
-
-
 .section__lead {
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
@@ -111,28 +96,22 @@ img {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #ffffff;
+  color: #a07b50;
 }
-
-
 .header {
   position: relative;
   background-color: #151313;
 }
-
 .header__container {
   position: relative;
   max-width: 1366px;
   margin: 0 auto;
   padding: 0 80px;
-  background-image: url("../img/main-cat-desktop@2x.png");
+  background-image: url("marak-site/img/main-cat-desktop@2x.png");
   background-repeat: no-repeat;
-  background-size: 384px auto;
+  background-size: 600px auto;
   background-position: right 0 bottom 0;
 }
-
-
-
 .header__wrapper {
   margin: 0 auto;
   width: auto;
@@ -178,7 +157,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  text-align: right;
+  text-align: left;
   color: #a07b50;
   max-width: 330px;
   margin-top: 30px;
@@ -193,7 +172,6 @@ img {
     max-width: 277px;
   }
 }
-
 .header__title {
   margin: 0;
   margin-bottom: 16px;
@@ -225,7 +203,7 @@ img {
   width: 200px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
@@ -312,7 +290,6 @@ img {
 .pets {
   background-color: #1f1c1d;
 }
-
 .pets__tab-content-wrapper {
   width: 100%;
 }
@@ -326,7 +303,7 @@ img {
   margin-bottom: 20px;
 }
 
-.pets__lead {
+.pets__lea  d {
   margin-bottom: 42px;
   max-width: 523px;
 }
@@ -341,10 +318,9 @@ img {
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 259px;
-  margin-bottom: 44px;
+  margin-bottom: 88px;
   padding-right: 10px;
 }
-
 .pets__item {
   margin-right: auto;
 }
@@ -352,12 +328,11 @@ img {
 .pets__item:last-of-type {
   margin-right: 0;
 }
-
 .pets__tab {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
@@ -368,16 +343,16 @@ img {
   opacity: 0.5;
   transition: opacity 0.3s ease-out;
 }
-
 .pets__tab-content {
   display: none;
 }
-
+.pets__tab--active {
+  color: #fff;
+}
 .pets__tab-content button {
   display: none;
   margin: 0;
 }
-
 .pets__sliders-wrapper {
   display: flex;
   flex-direction: row;
@@ -396,7 +371,7 @@ img {
   width: 200px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
@@ -528,7 +503,6 @@ img {
 .breed-features__lead {
   margin-bottom: 23px;
   width: 62%;
-  text-transform: uppercase;
 }
 
 .breed-features__list {
@@ -562,6 +536,7 @@ img {
   top: 7px;
   width: 15px;
   height: 15px;
+  border-radius: 50px;
   background-color: #a07b50;
 }
 
@@ -582,6 +557,8 @@ img {
   top: 411px;
   right: -482px;
   max-width: 201px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .breed-features__item--instruction::before {
@@ -714,19 +691,16 @@ img {
   height: 107px;
   background-image: url(../img/feature-consult.png);
 }
-
 .advantages__link--individual::before {
   width: 71px;
   height: 108px;
   background-image: url(../img/feature-individual.png);
 }
-
 .advantages__link span {
   display: block;  margin: 0 auto;
   margin-bottom: 10px;
   margin-top: 115px;  max-width: 233px;
 }
-
 .show {
   display: block;
 }

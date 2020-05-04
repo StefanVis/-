@@ -613,21 +613,17 @@ img {
 .advantages {
   background-color: #151313;
 }
-
 .advantages__wrapper {
   padding-top: 83px;
   padding-bottom: 64px;
 }
-
 .advantages__title {
   margin-bottom: 20px;
 }
-
 .advantages__lead {
   margin-bottom: 46px;
   word-spacing: 2px;
 }
-
 .advantages__list {
   margin: 0 auto;
   padding: 0;
@@ -637,7 +633,6 @@ img {
   justify-content: flex-start;
   width: 95%;
 }
-
 .advantages__item {
   background-color: #1f1c1d;
   width: 31.4%;
@@ -647,11 +642,9 @@ img {
   padding-top: 19.8px;
   padding-bottom: 19.8px;
 }
-
 .advantages__item:last-of-type {
   margin-right: 0;
 }
-
 .advantages__link {
   display: block;
   max-width: 320px;
@@ -669,23 +662,21 @@ img {
   transition: background-color 0.3s ease-out, fill 0.3s ease-out, stroke 0.3s ease-out;
   position: relative;
 }
-
 .advantages__link--24hours::before,
 .advantages__link--consult::before,
-.advantages__link--individual::before {
+.advantages__link--individual::before,
+.advantages__link--ball::before {
   display: block;
   content: "";
   position: absolute;
   top: 47px;
   left: 110px;
 }
-
 .advantages__link--24hours::before {
   width: 107px;
   height: 97px;
   background-image: url(../img/feature-24hours.png);
 }
-
 .advantages__link--consult::before {
   width: 99px;
   height: 107px;

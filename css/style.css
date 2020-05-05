@@ -693,7 +693,7 @@ img {
   margin-top: 115px;  max-width: 233px;
 }
 .advantages__item--img {
-  align-items: center;
+  text-align: center;
   pading: 20px;
   hight: 80%;
   width: 80%;

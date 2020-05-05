@@ -693,13 +693,8 @@ img {
   margin-top: 115px;  max-width: 233px;
 }
 .advantages__item--block--img {
-  display: flex;
-  flex: 3;
-  align-items: center, center;
-}
-.advantages__item--block--p {
-  display: flex;
-  flex: 1;
+  align-items: center;
+  margin-top: 20px;
 }
 .show {
   display: block;

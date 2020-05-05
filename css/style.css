@@ -692,9 +692,11 @@ img {
   margin-bottom: 10px;
   margin-top: 115px;  max-width: 233px;
 }
-.advantages__item--block--img {
+.advantages__item--img {
   align-items: center;
   margin-top: 20px;
+  hight: 50%;
+  width: 50%;
 }
 .show {
   display: block;

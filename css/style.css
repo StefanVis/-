@@ -666,7 +666,7 @@ img {
 .advantages__link--consult::before,
 .advantages__link--individual::before,
 .advantages__link--ball::before {
-  display: block;
+  display: flex;
   content: "";
   position: absolute;
   top: 130px;

@@ -670,22 +670,30 @@ img {
   content: "";
   position: absolute;
   top: 130px;
-  background-position: 0 0;
 }
 .advantages__link--24hours::before {
   width: 107px;
   height: 97px;
   background-image: url(../img/feature-24hours.png);
 }
+.advantages__link--24hours {
+  background-position: 0 0;
+}
 .advantages__link--consult::before {
   width: 99px;
   height: 107px;
   background-image: url(../img/feature-consult.png);
 }
+.advantages__link--consult {
+  background-position: 0 0;
+}
 .advantages__link--individual::before {
   width: 71px;
   height: 108px;
   background-image: url(../img/feature-individual.png);
+}
+.advantages__link--individual {
+  background-position: 0 0;
 }
 .advantages__link span {
   display: block;  margin: 0 auto;

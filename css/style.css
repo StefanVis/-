@@ -670,7 +670,7 @@ img {
   content: "";
   position: absolute;
   top: 130px;
-  text-align: center;
+  background-position: 0 0;
 }
 .advantages__link--24hours::before {
   width: 107px;

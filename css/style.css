@@ -669,8 +669,8 @@ img {
   display: block;
   content: "";
   position: absolute;
-  top: 100px;
-  text-algin: center;
+  top: 130px;
+  text-align: center;
 }
 .advantages__link--24hours::before {
   width: 107px;

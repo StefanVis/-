@@ -692,9 +692,11 @@ img {
   margin-bottom: 10px;
   margin-top: 115px;  max-width: 233px;
 }
-.advantages__item--img {
+.advantages__item--img--block {
   text-align: center;
   pading: 20px;
+}
+.advantages__item--img
   hight: 80%;
   width: 80%;
 }

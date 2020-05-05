@@ -694,9 +694,9 @@ img {
 }
 .advantages__item--img {
   align-items: center;
-  margin-top: 20px;
-  hight: 50%;
-  width: 50%;
+  pading: 20px;
+  hight: 80%;
+  width: 80%;
 }
 .show {
   display: block;

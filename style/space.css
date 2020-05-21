@@ -77,6 +77,9 @@ strong {
 }
 .btn-grey:hover {
 	background-color: #676767; /*Цвет заднего фона при наведении*/
+	width: 215px;
+	color: #fff;
+	background-color: #222;
 }
 /*Гибкая верстка*/
 .col-1 {
@@ -96,11 +99,6 @@ strong {
 }
 .col-6 {
     flex: 6;
-}
-.btn-grey:hover {
-	width: 215px;
-	color: #fff;
-	background-color: #222;
 }
 /*Гибкий дизайн*/
 @media(max-width: 1200px) {
@@ -251,6 +249,34 @@ header li a { /*Свойства только для тега <li> которы�
 	height: 8px;
 	border-radius: 50%;
 	background-color: #feca30;
+}
+.timetable {
+	flex: 1 0 auto; /*Фиксиуем положение*/
+	flex-wrap: wrap; /*Преренос <div> под другой <div> когда экран меньше 800px*/
+	background-color: #222; /*Задний фон*/
+	padding: 44px 0; /*Втурение тступы*/
+	color: #fff;
+}
+.timetable table {
+  border-collapse: collapse;
+}
+.timetable p {
+	color: #DCDCDC;
+}
+.timetable h2 {
+	color: #feca30;
+}
+.timetable th {
+	color: #fff;
+	background-color: #000;
+}
+.timetable tr {
+	border-bottom: 2px solid lightgray;
+}
+.c-yellow_d-yellow {
+	color: #feca30;
+	text-decoration: underline;
+	text-decoration-color: #feca30;
 }
 /*Подвал*/
 footer {

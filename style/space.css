@@ -258,7 +258,11 @@ header li a { /*Свойства только для тега <li> которы�
 	color: #fff;
 }
 .timetable table {
-  border-collapse: collapse;
+	border-collapse: collapse;
+	width: inherit;
+}
+.timetable caption {
+	width: inherit;
 }
 .timetable p {
 	color: #DCDCDC;
@@ -273,6 +277,10 @@ header li a { /*Свойства только для тега <li> которы�
 .timetable tr {
 	border-bottom: 2px solid lightgray;
 }
+.timetable tr {
+	border-bottom: 2px solid lightgray;
+	padding: 10px;
+} 
 .c-yellow_d-yellow {
 	color: #feca30;
 	text-decoration: underline;

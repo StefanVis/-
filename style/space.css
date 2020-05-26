@@ -273,10 +273,12 @@ header li a { /*Свойства только для тега <li> которы�
 }
 .timetable p {
 	color: #DCDCDC;
+	justify-content: center;
 }
 .timetable h2 {
 	font-size: 1.6em;
 	color: #feca30;
+	justify-content: center;
 }
 .timetable th {
 	color: #fff;

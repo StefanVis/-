@@ -267,7 +267,7 @@ header li a { /*Свойства только для тега <li> которы�
 }
 .caption {
 	width: 100%;
-	padding: 0 100px;
+	padding: 200px 0;
 }
 .timetable p {
 	color: #DCDCDC;

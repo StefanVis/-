@@ -265,8 +265,8 @@ header li a { /*Свойства только для тега <li> которы�
 	border-collapse: collapse;
 	width: inherit;
 }
-.timetable > div.caption {
-	width: inherit;
+.caption {
+	width: 100%;
 	padding: 0 100px;
 }
 .timetable p {

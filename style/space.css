@@ -256,8 +256,8 @@ header li a { /*Свойства только для тега <li> которы�
 	background-color: #222; /*Задний фон*/
 	padding: 44px 0; /*Втурение тступы*/
 	color: #fff;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 .timetable div{
 	display: flex;

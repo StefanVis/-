@@ -280,7 +280,7 @@ header li a { /*Свойства только для тега <li> которы�
 	color: #fff;
 	background-color: #000;
 	padding: 20px;
-	text-align: right;
+	text-align: left;
 }
 .timetable tr {
 	border-bottom: 1px solid lightgray;

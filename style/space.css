@@ -261,7 +261,6 @@ header li a { /*Свойства только для тега <li> которы�
 }
 .timetable div{
 	display: flex;
-	padding-bottom: 20px;
 }
 .timetable table {
 	border-collapse: collapse;

@@ -271,13 +271,13 @@ header li a { /*Свойства только для тега <li> которы�
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-.timetable p {
-	color: #DCDCDC;
-	justify-content: center;
-}
 .timetable h2 {
 	font-size: 1.6em;
 	color: #feca30;
+	justify-content: center;
+}
+.timetable p {
+	color: #DCDCDC;
 	justify-content: center;
 }
 .timetable th {
@@ -296,6 +296,41 @@ header li a { /*Свойства только для тега <li> которы�
 	color: #feca30;
 	text-decoration: underline;
 	text-decoration-color: #feca30;
+}
+.form {
+	flex: 1 0 auto; /*Фиксиуем положение*/
+	flex-wrap: wrap; /*Преренос <div> под другой <div> когда экран меньше 800px*/
+	background-color: #DCDCDC; /*Задний фон*/
+	color: #222;
+}
+.form h2 {
+	font-size: 1.6em;
+	color: #fff;
+	justify-content: center;
+}
+.form p {
+	color: #DCDCDC;
+	justify-content: center;
+}
+input[name="login"],
+input[name="phone"] {
+  background-color: #fff;
+  width: 100%;
+  height: 24px;
+  padding: 2px 5px;
+  border: 0px solid #cccccc;
+}
+input[name="hight"],
+input[name="weight"] {
+  background-color: #fff;
+  margin: 20px 0;
+  width: 45%;
+  height: 24px;
+  padding: 2px 5px;
+  border: 0px;
+}
+.registration_consent {
+	
 }
 /*Подвал*/
 footer {
